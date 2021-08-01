@@ -17,7 +17,7 @@ class Graph:
     def define_arches(self, s, e, v):  # s=start, e=end, v=value
         self.arches.append([s, e, v])
 
-    # Building a matrix data structure from yahoo and appending edges to graph
+    # Building a matrix data structure and appending edges to graph
     def build_graph(self):
         c = CurrencyRates()
         for i in range(self.vertices):
@@ -148,8 +148,6 @@ class Graph:
         nx.draw_networkx_labels(graph_view, pos, labels,
                                 font_size=16, font_color='black')
 
-        #mng = plt.get_current_fig_manager()
-        # mng.window.state('zoomed')
         plt.show()
 
 

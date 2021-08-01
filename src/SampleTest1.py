@@ -1,4 +1,4 @@
-import Arbitrage
+import ForexArbitrage
 
 # v1 = 5
 # # Major Currency Pairs (Us Dollar, Euro, Pound Sterling, Swiss Franc, Canadian Dollar)
